@@ -2,12 +2,12 @@
 Hackathon 25-26 nov 2021 - 17 hours to code - top chrono :checkered_flag:  :alarm_clock: 
 
 # UPDATE:
-## :tada:     Flow won 1st prize :trophy: for the concept & 2nd prize :trophy: of the Regional Hackaton!!!     :tada:
+## :tada:     Flow won 1st prize :trophy: for the concept & 2nd prize :trophy: of the Regional Hackathon!!     :tada:
 
 ### Hackathon: 
 An event where people work collaboratively using computer programming to solve technical challenges.
 
-Regional Hackaton:
+Regional Hackathon:
 +100 students
 +18 projects
 
@@ -31,7 +31,7 @@ ________________________________________________________________________________
 
 # ABOUT FLOW
 
-## “Our art tells a story and our stories should be listened to as we intended..”
+## “Our art tells a story and our stories should be listened to as we intended.”
 Adele,  Nov. 21st, 2021
 
 There is a desire for artists to tell stories, express their emotions, and take people with them on this journey.
