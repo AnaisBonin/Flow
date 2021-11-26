@@ -52,5 +52,6 @@ Share with others what other songs you'll suggest based on what you just listene
 Just let it flow -
 
 ### The Flow team -
-Made with <3 by Anaïs, Esteban, Francesco, Franck, Ranto.
+Made with <3 by Anaïs, Esteban, Francesco, Franck, Ranto
+Designed by Anaïs & Francesco
 
