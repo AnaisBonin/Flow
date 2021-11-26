@@ -1,30 +1,26 @@
 # Flow
-Hackathon 25_26 nov 2021
+Hackathon 25-26 nov 2021 - 17 hours to code - top chrono :checkered_flag:  :alarm_clock: 
 
-It could give apps of the type :
+# UPDATE:
+## :tada:     Flow won 1st prize :trophy: for the concept & 2nd prize :trophy: of the Regional Hackaton!!!     :tada:
 
-🎸 Sharing / generating playlists
+### Hackathon: 
+An event where people work collaboratively using computer programming to solve technical challenges.
 
-🎸 Topics around webradios
+Regional Hackaton:
++100 students
++18 projects
 
-🎸 Tinder like to form a rock band
+### Hackathon theme: 
 
-🎸 Guitar hero style game
+“If you put your mind to it, you can accomplish anything.” - Emmett Brown
 
-There are a few APIs around music (without
-authentication).
-Here are some examples :
+Wilders have the power to enjoy music and use all their technology to do it.
+Wilders have to create an application that can be perfectly adapted to the needs of everything in music (groups, singer, companies, etc)
 
-🎷 Spotify (possible without auth)
+Be creative & have fun Wilders !
 
-🎷 Web radios
-
-🎷 Lyrics
-
-🎷 API music list
-
-
-Judging criteria : 
+## Judging criteria : 
 
     UX DESIGN / 
     
@@ -32,14 +28,29 @@ Judging criteria :
     
     CONCEPT ORAL PRESENTATION / 
 ______________________________________________________________________________________________________________
-“Notre musique raconte une histoire et nos histoires doivent être écoutées comme nous les avons pensées.”
 
-Adele,  21 nov. 2021
+# ABOUT FLOW
 
-Flow est une App React sur le thème de la “musicothérapie”. 
+## “Our art tells a story and our stories should be listened to as we intended..”
+Adele,  Nov. 21st, 2021
 
-Le terme “Flow” en psychologie  désigne un état mental atteint par une personne lorsque est complètement plongée dans une activité de plein engagement et de satisfaction dans son accomplissement. 
+There is a desire for artists to tell stories, express their emotions, and take people with them on this journey.
+More than just an art, music is for both the artist and the listener a way to express and process emotions. 
 
-La Musique déclenche des émotions modulée par divers paramètres, pour cela l’utilisateur de Flow à la possibilité de choisir son inspiration du jour. 
-Les Paroles constituent l'élément qui donnera  à la musique tout son sens, pour ca notre utilisateur peut lire les paroles de la chanson. 
-S’exprimer sur son émotion musicale, l’utilisateur peut enfin écrire ce que cette chanson lui évoque. 
+## Flow is a 100% React App, based on the growing concept of “musicotherapy”. 
+
+In psychology, the term “Flow” designate a mental state, reached when fully imersed, mindfully, in an activity with a feeling of satisfaction and accomplishment. 
+
+Music triggers emotions modulated by various parameters. For that the user of Flow has the possibility of choosing his inspiration of the day, based on emotional key words such as Peace, Joy, Love, Active, etc. 
+
+While going through the album, they can dive into the lyrics and get very close to the meaning and message conveid by the artist.
+Flow is also unique and offers everyone the opportunity to express their emotions and tell their own story. 
+Listen to the music, and share with others and with the artist how does it make you feel. Be creative, you can write stories, poems, or kind of ways that will give you the opportunity to release your emotions. 
+
+Share with others what other songs you'll suggest based on what you just listened to and vote for your favorite. 
+
+Just let it flow -
+
+### The Flow team -
+Made with <3 by Anaïs, Esteban, Francesco, Franck, Ranto.
+
