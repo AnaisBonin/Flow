@@ -55,3 +55,8 @@ Just let it flow -
 Made with <3 by Anaïs, Esteban, Francesco, Franck, Ranto
 Designed by Anaïs & Francesco
 
+# Installation procedure
+
+git clone git@github.com:AnaisBonin/Flow.git
+npm i
+
