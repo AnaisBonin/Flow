@@ -58,5 +58,8 @@ Designed by Anaïs & Francesco
 # Installation procedure
 
 git clone git@github.com:AnaisBonin/Flow.git
+
 npm i
+
+npm start
 
