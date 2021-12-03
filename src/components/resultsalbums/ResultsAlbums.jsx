@@ -1,15 +1,14 @@
-// import axios from 'axios';
 // import React, { useState, useEffect } from 'react';
-// import "./ResultsAlbums.css";
+// import axios from 'axios';
 // import { Helmet } from 'react-helmet';
 // import { Carousel } from 'react-responsive-carousel';
+
+// import './ResultsAlbums.css';
 
 // const ResultsAlbums = ({ artist, album }) => {
 //   const [results, setResults] = useState([]);
 
-//   useEffect(() => {
-//     getAlbums()
-//   }, []);
+//   useEffect(getAlbums, []);
 
 //   const getAlbums = () => {
 //     axios
@@ -29,14 +28,12 @@
 //   })
 
 //   return (
-//     <main className="slider">
-//       <section className="sliderside">
-
+//     <main className='slider'>
+//       <section className='sliderside'>
 //         <Helmet>
 //           <title>Albums</title>
 //         </Helmet>
-
-//         <div className="albumName">
+//         <div className='albumName'>
 //           <h3>{artist}</h3>
 //         </div>
 //         <Carousel
@@ -45,17 +42,16 @@
 //           infiniteLoop
 //           centerMode
 //         >
-        
 //           {
-//           filteredResults.slice(0, 9).map((slide) => {
-          
-//           return (
-//             <div key={slide.name}>
-//               <img className="imgslide" src={slide.image[3]["#text"]} alt={`Couverture de l'album ${slide.name}`} />
-              
-//             </div>
+//             filteredResults.slice(0, 9).map((slide) => (
+//                <div key={slide.name}>
+//                      <img
+//                          className='imgslide'
+//                          src={slide.image[3]['#text']}
+//                          alt={`Couverture de l'album ${slide.name}`}
+//                      />
+//                </div>
 //             )})
-//           }
 //         </Carousel>
 //       </section>
 //     </main>

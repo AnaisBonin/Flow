@@ -1,15 +1,11 @@
-import React, { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
-import "./Espace.css";
+import React, { useState } from 'react';
+import { useEffect } from 'react/cjs/react.development';
+
+import './Espace.css';
 
 const Espace = ({ parentId }) => {
-  const [name, setName] = useState("");
-  const [content, setContent] = useState("");
-
-  useEffect(() => {
-    
-  }
-  )
+  const [name, setName] = useState('');
+  const [content, setContent] = useState('');
 
   const handleCommentSubmission = async (e) => {
     e.preventDefault();
@@ -19,37 +15,36 @@ const Espace = ({ parentId }) => {
       pId: parentId || null,
       time: new Date(),
     };
-    setName("");
-    setContent("");
-    console.log(comment);
+    setName('');
+    setContent('');
   };
 
   return (
     <div>
       <form onSubmit={(e) => handleCommentSubmission(e)}>
-        <label htmlFor="name">
+        <label htmlFor='name'>
           Name
           <input
-            type="text"
-            id="name"
+            type='text'
+            id='name'
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
           />
         </label>
-        <label htmlFor="comment">
+        <label htmlFor='comment'>
           Post your own story
           <textarea
-            id="comment"
+            id='comment'
             onChange={(e) => setContent(e.target.value)}
             value={content}
-            name="comment"
-            required="required"
-            cols="45"
-            rows="8"
+            name='comment'
+            required='required'
+            cols='45'
+            rows='8'
           ></textarea>
         </label>
-        <button type="submit" className="btn">
+        <button type='submit' className='btn'>
           Post
         </button>
       </form>

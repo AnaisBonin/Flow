@@ -1,31 +1,54 @@
-import React from 'react'
-import './MusicCategories.css'
-import icone from '../../assets/icones/icone-music.png'
+import React from 'react';
 
-const MusicCategories = ({setChosenInspiration,
-    handleClick}) => {
+import icone from '../../assets/icones/icone-music.png';
 
-    const inspirations = ["Believe", "Happy", "Calm", "Joy", "Danse", "Cry", "Love", "Relax", "Fight", "Let go", "Romance", "Play", "Evolve", "Active", "Silence"];
+import './MusicCategories.css';
 
-    inspirations.sort();
+const MusicCategories = ({ setChosenInspiration, handleClick }) => {
+  const inspirations = [
+    'Believe',
+    'Happy',
+    'Calm',
+    'Joy',
+    'Danse',
+    'Cry',
+    'Love',
+    'Relax',
+    'Fight',
+    'Let go',
+    'Romance',
+    'Play',
+    'Evolve',
+    'Active',
+    'Silence',
+  ];
 
-    return (
-        <section className="music-categories-section">
+  inspirations.sort();
 
-            <h2>What inspires you today?</h2>
+  return (
+    <section className='music-categories-section'>
+      <h2>What inspires you today?</h2>
+      {inspirations.map((inspiration, index) => (
+        <div
+          className='music-category-container'
+          key={index}
+          value={inspiration}
+          onClick={handleClick}
+        >
+          <img
+            src={icone}
+            className='music-category-icone'
+            value={inspiration}
+            alt='icone musique'
+            onClick={handleClick}
+          />
+          <button type='button' value={inspiration} onClick={handleClick}>
+            {inspiration}
+          </button>
+        </div>
+      ))}
+    </section>
+  );
+};
 
-            {inspirations.map((inspiration, index) => (
-                <div className="music-category-container" key={index} value={inspiration} onClick={handleClick}>
-                    <img src={icone}
-                    className="music-category-icone"
-                    value={inspiration} alt="icone musique" 
-                    onClick={handleClick}/>
-                    <button type="button" value={inspiration}
-                    onClick={handleClick}>{inspiration}</button>
-                </div>
-            ))}
-        </section>
-    )
-}
-
-export default MusicCategories
+export default MusicCategories;
